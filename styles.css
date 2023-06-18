@@ -1,0 +1,47 @@
+body {
+  margin-top: 30px;
+}
+
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#logo-and-name {
+  display: flex;
+  flex-direction: row;
+}
+
+#header-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 1%;
+  border: 1px solid gray;
+}
+
+#form label {
+  display: block;
+}
+
+#fieldset {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#social-media {
+  margin-right: 50px;
+}
+
+
+@media only screen and (max-width: 460px) {
+  a:hover {
+    background-color: blueviolet;
+  }
+}
